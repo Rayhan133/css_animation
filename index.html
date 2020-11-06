@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="animation.css">
+    <title>Document</title>
+</head>
+<body onload="intofun()">
+    <div id="intro">
+        <h1 >
+            <span>Q</span>
+            <span>u</span>
+            <span>i</span>
+            <span>z</span>
+            <span>G</span>
+            <span>a</span>
+            <span>m</span>
+            <span>e</span>
+        </h1>
+    </div>
+   
+   <script>
+       
+
+    
+
+    function intofun(){
+       let into_var =  document.getElementById("intro");
+       let i = 0;
+    setInterval(() => {
+        into_var.style.display = "none";
+       i=i+1;
+       
+       if(i==1){
+    location.href = "next.html";  
+   }
+    }, 5000);
+
+ 
+
+    }
+
+
+   </script>
+    
+</body>
+</html>
